@@ -72,7 +72,7 @@ navbar styling} */
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     .main-img{
         width: 100%;
     }
@@ -91,6 +91,17 @@ navbar styling} */
     padding: 15px 20px;
     cursor: pointer;
 }
+.location-trace{
+    width: 70%;
+}
+@media (max-width: 425px) {
+    .location-trace{
+        max-width: 100%;
+        margin-top: 30px;
+        
+    }
+    
+} 
 #red{
     color: var(--red);
 }
@@ -101,6 +112,18 @@ navbar styling} */
 #children-images{
     gap: 30px;
 }
+.mall-1{
+    width: 70%;
+}
+@media (max-width: 620px) {
+    .mall-1{
+        max-width: 100%;
+        margin-top: 30px;
+        
+    }
+    
+} 
+
 #city{
     text-align: center;
     letter-spacing: 15px;
