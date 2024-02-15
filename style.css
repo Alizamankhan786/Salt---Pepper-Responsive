@@ -21,8 +21,7 @@ navbar styling} */
     text-decoration: none;
 }
 
-.smart
-{
+.smart{
     margin: 0px 20px;
 }
 .checkbtn{
@@ -67,7 +66,19 @@ navbar styling} */
         }
         
     } */
+
+ .main-img{
+    width: 70%;
+
 }
+
+@media (max-width: 480px) {
+    .main-img{
+        width: 100%;
+    }
+    
+} 
+
 #franchise{
     background-color: transparent;
     border: 1px solid white;
